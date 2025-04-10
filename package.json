@@ -1,0 +1,21 @@
+{
+  "name": "playwright-expansion-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "e2e:ui": "npx playwright test --ui",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.51.1",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tslib": "^2.8.1",
+    "uuid": "^11.1.0"
+  }
+}

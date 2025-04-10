@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["es2018", "es2022", "dom"],
+    "module": "esnext",
+    "outDir": "./out-tsc/e2e",
+    "types": ["node", "globals"],
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false,
+  },
+  "include": ["**/*.ts"]
+}
